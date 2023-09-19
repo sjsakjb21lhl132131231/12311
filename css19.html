@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>예제21</title>
     <style type="text/css">
+        /* 기본 설정 */
         * {
             margin: 0;
             padding: 0;
@@ -20,13 +21,14 @@
             ul {
                 list-style: none;
             }
-
+/* clear: both 이전에 float:left float: right 설정을 초기화함 */
             .clear {
                 clear: both;
             }
 
             #logo {
                 padding: 30px 0 0 30px;
+                /* 이미지 상하 패딩30px */
                 float: left;
             }
 
@@ -57,6 +59,7 @@
 </head>
 
 <body>
+    
     <div id="logo">
         <img src="img/logo.png" alt="logo" width="200px" height="100px">
     </div>
